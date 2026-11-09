@@ -1,0 +1,5 @@
+# Zagent 运行依赖
+requests>=2.28          # LLM OpenAI 兼容接口（core 必需）
+trafilatura>=2.0        # fetchWeb 网页正文提取与 Markdown 转换（core 必需）
+mcp>=1.9                # MCP 客户端（stdio / streamableHTTP；无 .mcp.json 时可不装）
+textual>=0.8            # TUI 界面（可选：缺失时自动回退 CLI 后端）

@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "Bazi-MCP": {
+      "type": "streamable_http",
+      "url": "https://mcp.api-inference.modelscope.net/56737d90bf474d/mcp"
+    },
+    "PetHospital": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["E:/LLM/PetHospitalMCP/pet-hospital-mcp-stdio/server.py"],
+      "cwd": "E:/LLM/PetHospitalMCP/pet-hospital-mcp-stdio",
+      "env": {
+        "PET_API_BASE_URL": "http://127.0.0.1:8080",
+        "PYTHONIOENCODING": "utf-8"
+      },
+      "timeout": 30
+    }
+  }
+}

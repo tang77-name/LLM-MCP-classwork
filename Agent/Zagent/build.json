@@ -1,0 +1,30 @@
+{
+  "entry": "main.py",
+  "name": "Zagent",
+  "display_name": "Zagent",
+  "version": "1.0.0",
+  "publisher": "zhy_10/27",
+  "icon": "assets/icon.png",
+  "pyinstaller": {
+    "onefile": false,
+    "windowed": false,
+    "add_data": [
+      "core:core"
+    ],
+    "clean": true,
+    "noconfirm": true
+  },
+  "platforms": {
+    "windows": {
+      "inno_setup": {
+        "create_desktop_icon": true,
+        "create_start_menu_icon": true,
+        "allow_run_after_install": true,
+        "languages": [
+          "english",
+          "chinesesimplified"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.zagent/
+diagrams/
+.agents/context/
+
+# 打包产物与二进制（体积大，不入库）
+dist/
+build/
+build_log.txt
+installer/
+*.exe
+*.exe.old
+*.zip
+.agents/skills/OfficeCli/
+
+# 本地 Office 文档
+*.docx
+*.doc
+
+# macOS 解压残留
+__MACOSX/
+._*
+# 本地真实配置（含密钥），模板见 config.example.ini
+config.ini
